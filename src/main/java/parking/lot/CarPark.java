@@ -31,7 +31,7 @@ public class CarPark {
     }
 
     public boolean isNotFull() {
-        return capacity == spots.size();
+        return capacity > spots.size();
     }
 
     public int emptySpots() {
